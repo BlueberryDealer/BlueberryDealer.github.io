@@ -2,8 +2,134 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp_website",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m a SIT student (Applied Computing - Fintech). I’m interested in exploring how we can leverage technology to innovate new things in Banking & Finance!\n\n\n\nI like building projects that combine code + real datasets.\nThis website will showcase my project work and visualizations\n\n\n\n\n\n\n\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#a-quick-intro",
+    "href": "index.html#a-quick-intro",
+    "title": "Home",
+    "section": "",
+    "text": "I like building projects that combine code + real datasets.\nThis website will showcase my project work and visualizations"
+  },
+  {
+    "objectID": "index.html#photo",
+    "href": "index.html#photo",
+    "title": "Home",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "fyp_project.html",
+    "href": "fyp_project.html",
+    "title": "FYP Project",
+    "section": "",
+    "text": "This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization."
+  },
+  {
+    "objectID": "fyp_project.html#project-overview",
+    "href": "fyp_project.html#project-overview",
+    "title": "FYP Project",
+    "section": "",
+    "text": "This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization."
+  },
+  {
+    "objectID": "fyp_project.html#my-role",
+    "href": "fyp_project.html#my-role",
+    "title": "FYP Project",
+    "section": "My role",
+    "text": "My role\nI am the sole developer for this project."
+  },
+  {
+    "objectID": "fyp_project.html#tools-tech-used",
+    "href": "fyp_project.html#tools-tech-used",
+    "title": "FYP Project",
+    "section": "Tools / Tech used",
+    "text": "Tools / Tech used\n\nQuarto\nGithub"
+  },
+  {
+    "objectID": "fyp_project.html#outcome",
+    "href": "fyp_project.html#outcome",
+    "title": "FYP Project",
+    "section": "Outcome",
+    "text": "Outcome\nSpeaks for itself haha"
+  },
+  {
+    "objectID": "data_visualization.html",
+    "href": "data_visualization.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This visualization shows the relationship between car weight and fue\n\nlibrary(ggplot2)\n\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  geom_smooth(se = FALSE) +\n  labs(\n    title = \"Fuel Efficiency vs Car Weight\",\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per gallon (mpg)\"\n  )\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+  },
+  {
+    "objectID": "data_visualization.html#the-visualization",
+    "href": "data_visualization.html#the-visualization",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This visualization shows the relationship between car weight and fue\n\nlibrary(ggplot2)\n\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  geom_smooth(se = FALSE) +\n  labs(\n    title = \"Fuel Efficiency vs Car Weight\",\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per gallon (mpg)\"\n  )\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "For this assessment, I used ChatGPT as the main GenAI tool. I chose this tool because it is effective for explaining technical concepts clearly, providing structured guidance, and assisting with problem-solving in a step-by-step manner."
+  },
+  {
+    "objectID": "reflection.html#genai-tool-used",
+    "href": "reflection.html#genai-tool-used",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "For this assessment, I used ChatGPT as the main GenAI tool. I chose this tool because it is effective for explaining technical concepts clearly, providing structured guidance, and assisting with problem-solving in a step-by-step manner."
+  },
+  {
+    "objectID": "reflection.html#how-genai-helped-me-complete-the-assessment",
+    "href": "reflection.html#how-genai-helped-me-complete-the-assessment",
+    "title": "Reflection on the use of GenAI",
+    "section": "How GenAI helped me complete the assessment",
+    "text": "How GenAI helped me complete the assessment\nChatGPT helped me understand how to build and structure a Quarto website using RStudio.\nFor example, it guided me in: - Creating and organizing .qmd files - Configuring the _quarto.yml file for website navigation - Debugging issues such as broken navigation links and missing rendered pages - Creating a valid data visualization using R and ggplot2\nThese examples helped me complete the tasks more efficiently while still requiring me to implement and verify the solutions myself."
+  },
+  {
+    "objectID": "reflection.html#benefits-of-using-genai",
+    "href": "reflection.html#benefits-of-using-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "Benefits of using GenAI",
+    "text": "Benefits of using GenAI\nOne major benefit of using GenAI is efficiency. It reduces the time needed to search for documentation and provides direct, relevant explanations.\nAnother benefit is clarity, as complex concepts such as Quarto rendering and website structure were broken down into manageable steps."
+  },
+  {
+    "objectID": "reflection.html#challenges-of-using-genai",
+    "href": "reflection.html#challenges-of-using-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "Challenges of using GenAI",
+    "text": "Challenges of using GenAI\nA challenge of using GenAI is that its suggestions still need to be verified. In some cases, minor mistakes such as incorrect file names or missing rendering steps can occur if the user follows suggestions blindly. This reinforced the importance of understanding the tools rather than relying entirely on AI-generated responses."
+  },
+  {
+    "objectID": "reflection.html#future-use-of-genai",
+    "href": "reflection.html#future-use-of-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "Future use of GenAI",
+    "text": "Future use of GenAI\nIn the future, I believe GenAI tools will assist me in my studies and work by helping with debugging, learning new technologies, and drafting technical documentation. However, I will continue to treat GenAI as a support tool rather than a replacement for critical thinking."
+  },
+  {
+    "objectID": "reflection.html#additional-thoughts",
+    "href": "reflection.html#additional-thoughts",
+    "title": "Reflection on the use of GenAI",
+    "section": "Additional thoughts",
+    "text": "Additional thoughts\nOverall, using GenAI in this assessment enhanced my learning experience by providing guidance while still requiring active engagement. When used responsibly, GenAI can be a valuable learning companion."
+  },
+  {
+    "objectID": "data_visualization.html#story-behind-the-visualization",
+    "href": "data_visualization.html#story-behind-the-visualization",
+    "title": "Data Visualization",
+    "section": "Story behind the visualization",
+    "text": "Story behind the visualization\nI chose a scatter plot because it is effective for showing the relationship between two numerical variables.\nEach point represents a car, allowing comparisons across different weights.\nThe smooth trend line helps highlight the overall relationship between car weight and fuel efficiency, making the pattern easier to interpret."
+  },
+  {
+    "objectID": "data_visualization.html#what-was-visualized",
+    "href": "data_visualization.html#what-was-visualized",
+    "title": "Data Visualization",
+    "section": "What was visualized",
+    "text": "What was visualized\n\nwt (weight) – numerical variable representing car weight\nmpg (fuel efficiency) – numerical variable representing fuel efficiency"
   }
 ]

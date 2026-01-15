@@ -1,0 +1,31 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+## GenAI tool used
+For this assessment, I used **ChatGPT** as the main GenAI tool. I chose this tool because it is effective for explaining technical concepts clearly, providing structured guidance, and assisting with problem-solving in a step-by-step manner.
+
+## How GenAI helped me complete the assessment
+ChatGPT helped me understand how to build and structure a Quarto website using RStudio.  
+For example, it guided me in:
+- Creating and organizing `.qmd` files
+- Configuring the `_quarto.yml` file for website navigation
+- Debugging issues such as broken navigation links and missing rendered pages
+- Creating a valid data visualization using R and `ggplot2`
+
+These examples helped me complete the tasks more efficiently while still requiring me to implement and verify the solutions myself.
+
+## Benefits of using GenAI
+One major benefit of using GenAI is efficiency. It reduces the time needed to search for documentation and provides direct, relevant explanations.  
+Another benefit is clarity, as complex concepts such as Quarto rendering and website structure were broken down into manageable steps.
+
+## Challenges of using GenAI
+A challenge of using GenAI is that its suggestions still need to be verified. In some cases, minor mistakes such as incorrect file names or missing rendering steps can occur if the user follows suggestions blindly. This reinforced the importance of understanding the tools rather than relying entirely on AI-generated responses.
+
+## Future use of GenAI
+In the future, I believe GenAI tools will assist me in my studies and work by helping with debugging, learning new technologies, and drafting technical documentation. However, I will continue to treat GenAI as a support tool rather than a replacement for critical thinking.
+
+## Additional thoughts
+Overall, using GenAI in this assessment enhanced my learning experience by providing guidance while still requiring active engagement. When used responsibly, GenAI can be a valuable learning companion.
+
+

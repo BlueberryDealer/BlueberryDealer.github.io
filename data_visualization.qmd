@@ -1,0 +1,28 @@
+---
+title: "Data Visualization"
+---
+
+## The visualization
+This visualization shows the relationship between car weight and fue
+
+```{r}
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_smooth(se = FALSE) +
+  labs(
+    title = "Fuel Efficiency vs Car Weight",
+    x = "Weight (1000 lbs)",
+    y = "Miles per gallon (mpg)"
+  )
+```
+
+## What was visualized
+- **wt (weight)** – numerical variable representing car weight
+- **mpg (fuel efficiency)** – numerical variable representing fuel efficiency
+
+## Story behind the visualization
+I chose a scatter plot because it is effective for showing the relationship between two numerical variables.  
+Each point represents a car, allowing comparisons across different weights.  
+The smooth trend line helps highlight the overall relationship between car weight and fuel efficiency, making the pattern easier to interpret.

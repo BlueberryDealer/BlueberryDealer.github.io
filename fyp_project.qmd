@@ -1,0 +1,18 @@
+---
+title: "FYP Project"
+---
+
+## Project overview
+This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization.
+
+## My role
+I am the sole developer for this project.
+
+## Tools / Tech used
+- Quarto
+- Github
+
+## Outcome
+Speaks for itself haha
+
+

@@ -1,11 +1,18 @@
 ---
-title: "temp_website"
+title: "Home"
 ---
 
-This is a Quarto website.
+# Hi, I'm Mowli 👋
+
+I'm a SIT student (Applied Computing - Fintech).
+I'm interested in exploring how we can leverage technology to innovate new things in Banking & Finance!
+
+## A quick intro
+- I like building projects that combine code + real datasets.
+- This website will showcase my project work and visualizations
+
+## Photo
+![](photo.jpeg){width=250px fig-align="center"}
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```

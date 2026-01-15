@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – temp_website</title>
+<title>Data Visualization – temp_website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -96,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">FYP Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data_visualization.html"> 
+    <a class="nav-link active" href="./data_visualization.html" aria-current="page"> 
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
@@ -126,11 +161,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hi-im-mowli" id="toc-hi-im-mowli" class="nav-link active" data-scroll-target="#hi-im-mowli">Hi, I’m Mowli 👋</a>
-  <ul class="collapse">
-  <li><a href="#a-quick-intro" id="toc-a-quick-intro" class="nav-link" data-scroll-target="#a-quick-intro">A quick intro</a></li>
-  <li><a href="#photo" id="toc-photo" class="nav-link" data-scroll-target="#photo">Photo</a></li>
-  </ul></li>
+  <li><a href="#the-visualization" id="toc-the-visualization" class="nav-link active" data-scroll-target="#the-visualization">The visualization</a></li>
+  <li><a href="#what-was-visualized" id="toc-what-was-visualized" class="nav-link" data-scroll-target="#what-was-visualized">What was visualized</a></li>
+  <li><a href="#story-behind-the-visualization" id="toc-story-behind-the-visualization" class="nav-link" data-scroll-target="#story-behind-the-visualization">Story behind the visualization</a></li>
   </ul>
 </nav>
 </nav>
@@ -143,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home</h1>
+<h1 class="title">Data Visualization</h1>
 </div>
 
 
@@ -160,27 +193,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hi-im-mowli" class="level1">
-<h1>Hi, I’m Mowli 👋</h1>
-<p>I’m a SIT student (Applied Computing - Fintech). I’m interested in exploring how we can leverage technology to innovate new things in Banking &amp; Finance!</p>
-<section id="a-quick-intro" class="level2">
-<h2 class="anchored" data-anchor-id="a-quick-intro">A quick intro</h2>
-<ul>
-<li>I like building projects that combine code + real datasets.</li>
-<li>This website will showcase my project work and visualizations</li>
-</ul>
-</section>
-<section id="photo" class="level2">
-<h2 class="anchored" data-anchor-id="photo">Photo</h2>
-<div class="quarto-figure quarto-figure-center">
+<section id="the-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="the-visualization">The visualization</h2>
+<p>This visualization shows the relationship between car weight and fue</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars, <span class="fu">aes</span>(<span class="at">x =</span> wt, <span class="at">y =</span> mpg)) <span class="sc">+</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Fuel Efficiency vs Car Weight"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Weight (1000 lbs)"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Miles per gallon (mpg)"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using method = 'loess' and formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="photo.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="250"></p>
+<p><img src="data_visualization_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-
-
+</div>
+</div>
 </section>
+<section id="what-was-visualized" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-visualized">What was visualized</h2>
+<ul>
+<li><strong>wt (weight)</strong> – numerical variable representing car weight</li>
+<li><strong>mpg (fuel efficiency)</strong> – numerical variable representing fuel efficiency</li>
+</ul>
+</section>
+<section id="story-behind-the-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="story-behind-the-visualization">Story behind the visualization</h2>
+<p>I chose a scatter plot because it is effective for showing the relationship between two numerical variables.<br>
+Each point represents a car, allowing comparisons across different weights.<br>
+The smooth trend line helps highlight the overall relationship between car weight and fuel efficiency, making the pattern easier to interpret.</p>
+
+
 </section>
 
 </main> <!-- /main -->
