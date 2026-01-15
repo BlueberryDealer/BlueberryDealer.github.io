@@ -25,7 +25,7 @@ A challenge of using GenAI is that its suggestions still need to be verified. In
 ## Future use of GenAI
 In the future, I believe GenAI tools will assist me in my studies and work by helping with debugging, learning new technologies, and drafting technical documentation. However, I will continue to treat GenAI as a support tool rather than a replacement for critical thinking.
 
-## Additional thoughts
+## Conclusion
 Overall, using GenAI in this assessment enhanced my learning experience by providing guidance while still requiring active engagement. When used responsibly, GenAI can be a valuable learning companion.
 
 

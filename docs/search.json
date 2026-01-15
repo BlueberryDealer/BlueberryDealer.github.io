@@ -4,35 +4,35 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "I’m a SIT student (Applied Computing - Fintech). I’m interested in exploring how we can leverage technology to innovate new things in Banking & Finance!\n\n\n\nI like building projects that combine code + real datasets.\nThis website will showcase my project work and visualizations\n\n\n\n\n\n\n\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m a SIT student (Applied Computing – FinTech).\nI’m interested in building data-driven systems and visualisations, especially in finance, analytics, and AI-assisted tools.\n\n\n\nI enjoy building projects that combine code + real datasets\nThis website showcases my projects, visualisations, and reflections"
   },
   {
     "objectID": "index.html#a-quick-intro",
     "href": "index.html#a-quick-intro",
     "title": "Home",
-    "section": "",
-    "text": "I like building projects that combine code + real datasets.\nThis website will showcase my project work and visualizations"
+    "section": "A quick intro",
+    "text": "A quick intro\n\nI like building projects that combine code + real datasets.\nThis website will showcase my project work and visualizations\n\n\n\n\n\n\n\nNote\n\n\n\nCurrently exploring: R, Quarto websites, data visualization, and basic data engineering workflows."
   },
   {
     "objectID": "index.html#photo",
     "href": "index.html#photo",
     "title": "Home",
-    "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "section": "Photo",
+    "text": "Photo"
   },
   {
     "objectID": "fyp_project.html",
     "href": "fyp_project.html",
-    "title": "FYP Project",
+    "title": "Python Stock Market Analysis Dashboard",
     "section": "",
-    "text": "This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization."
+    "text": "This project is a Python-based stock market analysis and visualization dashboard designed to explore price trends, moving averages, and market behavior across different time periods.\nThe dashboard focuses on providing interactive insights into stock performance, making it easier to analyze trends and patterns commonly used in technical analysis."
   },
   {
     "objectID": "fyp_project.html#project-overview",
     "href": "fyp_project.html#project-overview",
-    "title": "FYP Project",
+    "title": "Python Stock Market Analysis Dashboard",
     "section": "",
-    "text": "This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization."
+    "text": "This project is a Python-based stock market analysis and visualization dashboard designed to explore price trends, moving averages, and market behavior across different time periods.\nThe dashboard focuses on providing interactive insights into stock performance, making it easier to analyze trends and patterns commonly used in technical analysis."
   },
   {
     "objectID": "fyp_project.html#my-role",
@@ -51,23 +51,23 @@
   {
     "objectID": "fyp_project.html#outcome",
     "href": "fyp_project.html#outcome",
-    "title": "FYP Project",
+    "title": "Python Stock Market Analysis Dashboard",
     "section": "Outcome",
-    "text": "Outcome\nSpeaks for itself haha"
+    "text": "Outcome\nThis project strengthened my understanding of:\n\nTime-series financial data\nTechnical indicators such as moving averages\nBuilding interactive analytical dashboards\nApplying Python to real-world FinTech use cases"
   },
   {
     "objectID": "data_visualization.html",
     "href": "data_visualization.html",
     "title": "Data Visualization",
     "section": "",
-    "text": "This visualization shows the relationship between car weight and fue\n\nlibrary(ggplot2)\n\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  geom_smooth(se = FALSE) +\n  labs(\n    title = \"Fuel Efficiency vs Car Weight\",\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per gallon (mpg)\"\n  )\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+    "text": "This page presents two quantitative visualizations created as part of my Python stock market analysis project.\nBoth visualizations are based on numerical stock price data and are designed to highlight different aspects of market behavior."
   },
   {
     "objectID": "data_visualization.html#the-visualization",
     "href": "data_visualization.html#the-visualization",
     "title": "Data Visualization",
     "section": "",
-    "text": "This visualization shows the relationship between car weight and fue\n\nlibrary(ggplot2)\n\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  geom_smooth(se = FALSE) +\n  labs(\n    title = \"Fuel Efficiency vs Car Weight\",\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per gallon (mpg)\"\n  )\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+    "text": "This page presents two quantitative visualizations created as part of my Python stock market analysis project.\nBoth visualizations are based on numerical stock price data and are designed to highlight different aspects of market behavior."
   },
   {
     "objectID": "reflection.html",
@@ -123,13 +123,90 @@
     "href": "data_visualization.html#story-behind-the-visualization",
     "title": "Data Visualization",
     "section": "Story behind the visualization",
-    "text": "Story behind the visualization\nI chose a scatter plot because it is effective for showing the relationship between two numerical variables.\nEach point represents a car, allowing comparisons across different weights.\nThe smooth trend line helps highlight the overall relationship between car weight and fuel efficiency, making the pattern easier to interpret."
+    "text": "Story behind the visualization\nI selected these visualizations to analyze both volatility and trend behavior in stock prices.\nThe daily returns plot makes it easier to identify periods of market instability that are not immediately visible from price charts alone.\nThe upward and downward run visualization complements this by showing how price movements cluster into trends, which is useful for understanding momentum and potential trading signals.\nTogether, these visualizations provide a more complete picture of stock market behavior than a single chart alone."
   },
   {
     "objectID": "data_visualization.html#what-was-visualized",
     "href": "data_visualization.html#what-was-visualized",
     "title": "Data Visualization",
     "section": "What was visualized",
-    "text": "What was visualized\n\nwt (weight) – numerical variable representing car weight\nmpg (fuel efficiency) – numerical variable representing fuel efficiency"
+    "text": "What was visualized\n\nDaily returns – numerical values representing day-to-day percentage price changes\nStock closing prices – numerical time-series data\nRun lengths – counts of consecutive upward or downward price movements\nVolatility patterns derived from return fluctuations\n\nAll visualizations are based on quantitative financial data."
+  },
+  {
+    "objectID": "index.html#featured-pages",
+    "href": "index.html#featured-pages",
+    "title": "Home",
+    "section": "",
+    "text": "A Quarto-based website project built in RStudio, deployed on GitHub Pages.\nOpen page →\n\n\n\n\nA ggplot2 visualization with explanation and rationale.\nOpen page →"
+  },
+  {
+    "objectID": "fyp_project.html#key-features",
+    "href": "fyp_project.html#key-features",
+    "title": "Python Stock Market Analysis Dashboard",
+    "section": "Key features",
+    "text": "Key features\n\nStock selection (e.g. AAPL, NVDA, TSLA)\nAdjustable time periods (1M, 3M, 6M, 1Y, 2Y)\nSimple Moving Average (SMA) overlay\nIdentification of upward and downward price runs\nInteractive visual exploration of historical data"
+  },
+  {
+    "objectID": "fyp_project.html#dashboard-overview",
+    "href": "fyp_project.html#dashboard-overview",
+    "title": "Python Stock Market Analysis Dashboard",
+    "section": "Dashboard overview",
+    "text": "Dashboard overview\n\n\n\n\n\nMain dashboard interface showing stock selection, date range, and price movement."
+  },
+  {
+    "objectID": "fyp_project.html#technical-analysis-close-price-vs-sma",
+    "href": "fyp_project.html#technical-analysis-close-price-vs-sma",
+    "title": "Python Stock Market Analysis Dashboard",
+    "section": "Technical analysis: Close price vs SMA",
+    "text": "Technical analysis: Close price vs SMA\n\n\n\n\n\nThis visualization compares the stock’s closing price against its Simple Moving Average (SMA).\nThe SMA helps smooth short-term price fluctuations and provides a clearer view of overall trend direction."
+  },
+  {
+    "objectID": "fyp_project.html#time-period-comparison",
+    "href": "fyp_project.html#time-period-comparison",
+    "title": "Python Stock Market Analysis Dashboard",
+    "section": "Time period comparison",
+    "text": "Time period comparison\n\n\n\n\n\nUsers can switch between different time windows to observe how trends change across short-term and long-term horizons."
+  },
+  {
+    "objectID": "fyp_project.html#tools-and-technologies-used",
+    "href": "fyp_project.html#tools-and-technologies-used",
+    "title": "Python Stock Market Analysis Dashboard",
+    "section": "Tools and technologies used",
+    "text": "Tools and technologies used\n\nPython\nPandas & NumPy\nPlotly / Matplotlib\nStreamlit (for interactive dashboard)\nFinancial data APIs (e.g. Yahoo Finance)"
+  },
+  {
+    "objectID": "data_visualization.html#daily-returns-analysis",
+    "href": "data_visualization.html#daily-returns-analysis",
+    "title": "Data Visualization",
+    "section": "Daily returns analysis",
+    "text": "Daily returns analysis\n\n\n\n\n\nThis visualization shows the daily percentage returns of a selected stock over time.\nLarge positive and negative spikes indicate periods of high volatility, while smaller fluctuations represent more stable trading days."
+  },
+  {
+    "objectID": "data_visualization.html#upward-and-downward-price-runs",
+    "href": "data_visualization.html#upward-and-downward-price-runs",
+    "title": "Data Visualization",
+    "section": "Upward and downward price runs",
+    "text": "Upward and downward price runs\n\n\n\n\n\nThis visualization highlights consecutive upward and downward price movements in the stock price.\nIt summarizes the number of upward and downward runs, as well as the longest continuous trends, providing insight into market momentum."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Home",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\n\n\n\n\n\n\nTip📈 Python Stock Analysis Dashboard\n\n\n\nInteractive dashboard for trends, SMA, daily returns, and runs.\nView project →\n\n\n\n\n\n\n\n\n\nNote📊 Data Visualization\n\n\n\nVolatility + trend visualizations (returns + up/down runs).\nView page →"
+  },
+  {
+    "objectID": "index.html#hi-im-mowli",
+    "href": "index.html#hi-im-mowli",
+    "title": "Home",
+    "section": "",
+    "text": "I’m a SIT student (Applied Computing – FinTech).\nI’m interested in building data-driven systems and visualisations, especially in finance, analytics, and AI-assisted tools.\n\n\n\nI enjoy building projects that combine code + real datasets\nThis website showcases my projects, visualisations, and reflections"
+  },
+  {
+    "objectID": "reflection.html#conclusion",
+    "href": "reflection.html#conclusion",
+    "title": "Reflection on the use of GenAI",
+    "section": "Conclusion",
+    "text": "Conclusion\nOverall, using GenAI in this assessment enhanced my learning experience by providing guidance while still requiring active engagement. When used responsibly, GenAI can be a valuable learning companion."
   }
 ]

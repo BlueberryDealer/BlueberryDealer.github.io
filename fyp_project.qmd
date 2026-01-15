@@ -1,18 +1,65 @@
 ---
-title: "FYP Project"
+title: "Python Stock Market Analysis Dashboard"
 ---
 
 ## Project overview
-This is my Week 02 Lab Assessment for AAI1001-Data Engineering and Visualization.
 
-## My role
-I am the sole developer for this project.
+This project is a **Python-based stock market analysis and visualization dashboard** designed to explore price trends, moving averages, and market behavior across different time periods.
 
-## Tools / Tech used
-- Quarto
-- Github
+The dashboard focuses on providing **interactive insights** into stock performance, making it easier to analyze trends and patterns commonly used in technical analysis.
+
+---
+
+## Key features
+
+- Stock selection (e.g. AAPL, NVDA, TSLA)
+- Adjustable time periods (1M, 3M, 6M, 1Y, 2Y)
+- Simple Moving Average (SMA) overlay
+- Identification of upward and downward price runs
+- Interactive visual exploration of historical data
+
+---
+
+## Dashboard overview
+
+![](images/overview.png){width="100%" fig-align="center"}
+
+*Main dashboard interface showing stock selection, date range, and price movement.*
+
+---
+
+## Technical analysis: Close price vs SMA
+
+![](images/sma_analysis.png){width="100%" fig-align="center"}
+
+This visualization compares the stock’s **closing price** against its **Simple Moving Average (SMA)**.  
+The SMA helps smooth short-term price fluctuations and provides a clearer view of overall trend direction.
+
+---
+
+## Time period comparison
+
+![](images/overview.png){width="100%" fig-align="center"}
+
+Users can switch between different time windows to observe how trends change across short-term and long-term horizons.
+
+---
+
+## Tools and technologies used
+
+- Python
+- Pandas & NumPy
+- Plotly / Matplotlib
+- Streamlit (for interactive dashboard)
+- Financial data APIs (e.g. Yahoo Finance)
+
+---
 
 ## Outcome
-Speaks for itself haha
 
+This project strengthened my understanding of:
 
+- Time-series financial data
+- Technical indicators such as moving averages
+- Building interactive analytical dashboards
+- Applying Python to real-world FinTech use cases

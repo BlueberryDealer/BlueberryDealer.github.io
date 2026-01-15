@@ -3,26 +3,45 @@ title: "Data Visualization"
 ---
 
 ## The visualization
-This visualization shows the relationship between car weight and fue
 
-```{r}
-library(ggplot2)
+This page presents two quantitative visualizations created as part of my **Python stock market analysis project**.  
+Both visualizations are based on **numerical stock price data** and are designed to highlight different aspects of market behavior.
 
-ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point() +
-  geom_smooth(se = FALSE) +
-  labs(
-    title = "Fuel Efficiency vs Car Weight",
-    x = "Weight (1000 lbs)",
-    y = "Miles per gallon (mpg)"
-  )
-```
+---
+
+## Daily returns analysis
+
+![](images/daily_returns.png){width="100%" fig-align="center"}
+
+This visualization shows the **daily percentage returns** of a selected stock over time.  
+Large positive and negative spikes indicate periods of **high volatility**, while smaller fluctuations represent more stable trading days.
+
+---
+
+## Upward and downward price runs
+
+![](images/up_down.png){width="100%" fig-align="center"}
+
+This visualization highlights **consecutive upward and downward price movements** in the stock price.  
+It summarizes the number of upward and downward runs, as well as the **longest continuous trends**, providing insight into market momentum.
+
+---
 
 ## What was visualized
-- **wt (weight)** – numerical variable representing car weight
-- **mpg (fuel efficiency)** – numerical variable representing fuel efficiency
+
+- **Daily returns** – numerical values representing day-to-day percentage price changes
+- **Stock closing prices** – numerical time-series data
+- **Run lengths** – counts of consecutive upward or downward price movements
+- **Volatility patterns** derived from return fluctuations
+
+All visualizations are based on **quantitative financial data**.
+
+---
 
 ## Story behind the visualization
-I chose a scatter plot because it is effective for showing the relationship between two numerical variables.  
-Each point represents a car, allowing comparisons across different weights.  
-The smooth trend line helps highlight the overall relationship between car weight and fuel efficiency, making the pattern easier to interpret.
+
+I selected these visualizations to analyze **both volatility and trend behavior** in stock prices.  
+The daily returns plot makes it easier to identify periods of market instability that are not immediately visible from price charts alone.  
+The upward and downward run visualization complements this by showing how price movements cluster into trends, which is useful for understanding momentum and potential trading signals.
+
+Together, these visualizations provide a more complete picture of stock market behavior than a single chart alone.

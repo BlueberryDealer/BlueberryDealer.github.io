@@ -2,17 +2,51 @@
 title: "Home"
 ---
 
-# Hi, I'm Mowli 👋
+::: {.columns align="center"}
+::: {.column width="60%"}
+## Hi, I’m Mowli 👋
 
-I'm a SIT student (Applied Computing - Fintech).
-I'm interested in exploring how we can leverage technology to innovate new things in Banking & Finance!
+I’m a **SIT student (Applied Computing – FinTech)**.  
+I’m interested in building data-driven systems and visualisations, especially in **finance, analytics, and AI-assisted tools**.
 
-## A quick intro
-- I like building projects that combine code + real datasets.
-- This website will showcase my project work and visualizations
+### A quick intro
+- I enjoy building projects that combine **code + real datasets**
+- This website showcases my **projects, visualisations, and reflections**
+:::
 
-## Photo
-![](photo.jpeg){width=250px fig-align="center"}
+::: {.column width="40%"}
+![](images/photo.jpeg){fig-alt="My photo" style="border-radius: 16px; max-width: 280px;"}
+:::
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Connect with me
+[View my projects](fyp_project.qmd){.btn .btn-primary} 
+[Data Viz](data_visualization.qmd){.btn .btn-outline-secondary} 
+[GitHub](https://github.com/BlueberryDealer){.btn .btn-outline-secondary target="_blank"} 
+[LinkedIn](https://www.linkedin.com/in/mowli02/){.btn .btn-outline-secondary target="_blank"}
 
+::: {.callout-note}
+**Currently exploring:** R, Quarto websites, data visualization, and basic data engineering workflows.
+:::
+
+## Featured Projects
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip}
+### 📈 Python Stock Analysis Dashboard  
+Interactive dashboard for trends, SMA, daily returns, and runs.
+
+[View project →](fyp_project.qmd)
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-note}
+### 📊 Data Visualization  
+Volatility + trend visualizations (returns + up/down runs).
+
+[View page →](data_visualization.qmd)
+:::
+:::
+:::

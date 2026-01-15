@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "AAI1001 - Personal Website"
+  title: "Mowli's Portfolio"
   favicon: favicon.png
   navbar:
     logo: logo.png
@@ -16,10 +16,20 @@ website:
         text: Data Visualization
       - href: reflection.qmd
         text: Reflection
+    right:
+      - icon: github
+        href: https://github.com/BlueberryDealer
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mowli02/
+        target: _blank
+      
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
     toc-depth: 3
